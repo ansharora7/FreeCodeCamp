@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<body>
+	<main id="main-doc">
+		<nav id="navbar">
+			<div>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/768px-Python-logo-notext.svg.png" alt="Python" id="img">
+                <header>Python- Built-in Types</header>
+			</div>
+			<a href="#Boolean_Operations" class="nav-link">Boolean Operations</a>
+			<a href="#Comparisons" class="nav-link">Comparisons</a>
+			<a href="#Numeric_Types" class="nav-link">Numeric Types</a>
+			<a href="#Lists" class="nav-link">Lists</a>
+			<a href="#Tuples" class="nav-link">Tuples</a>
+		</nav>
+		<section class="main-section" id="Boolean_Operations">
+			<header>Boolean Operations</header>
+			<p>These are the Boolean operations, ordered by ascending priority:</p>
+			<p><code>x or y : if x is false, then y, else x</code><br>
+			   <code>x and y : if x is false, then x, else y</code><br>
+			   <code>not x : if x is false, then True, else False</code>
+			</p>
+
+		</section>
+		<section class="main-section" id="Comparisons">
+			<header>Comparisons</header>
+			<p>There are eight comparison operations in Python. They all have the same priority (which is higher than that of the Boolean operations). Comparisons can be chained arbitrarily; for example, x < y <= z is equivalent to x < y and y <= z, except that y is evaluated only once (but in both cases z is not evaluated at all when x < y is found to be false).</p>
+			<p>Objects of different types, except different numeric types, never compare equal. The == operator is always defined but for some object types (for example, class objects) is equivalent to is. The <code> <, <=, > and >= </code> operators are only defined where they make sense; for example, they raise a TypeError exception when one of the arguments is a complex number.</p>
+		</section>
+
+		<section class="main-section" id="Numeric_Types">
+			<header>Numeric Types</header>
+			<p>There are three distinct numeric types: integers, floating point numbers, and complex numbers. In addition, Booleans are a subtype of integers. Integers have unlimited precision. Floating point numbers are usually implemented using double in C; information about the precision and internal representation of floating point numbers for the machine on which your program is running is available in sys.float_info. Complex numbers have a real and imaginary part, which are each a floating point number. To extract these parts from a complex number z, use z.real and z.imag. (The standard library includes the additional numeric types fractions.Fraction, for rationals, and decimal.Decimal, for floating-point numbers with user-definable precision.)</p>
+			<p>
+			<ul>
+				<code>
+				<li>x + y : sum of x and y</li>
+				<li>x - y : difference of x and y</li>
+				<li>x * y : product of x and y</li>
+				<li>x / y : quotient of x and y</li>
+			    <li>x // y : floored quotient of x and y</code>
+			</ul>
+			</p>
+		</section>
+
+		<section class="main-section" id="Lists">
+			<header>Lists</header>
+			<p>The constructor builds a list whose items are the same and in the same order as iterable’s items. iterable may be either a sequence, a container that supports iteration, or an iterator object. If iterable is already a list, a copy is made and returned, similar to iterable[:]. For example, list('abc') returns ['a', 'b', 'c'] and list( (1, 2, 3) ) returns [1, 2, 3]. If no argument is given, the constructor creates a new empty list, [].</p>
+			<p>Many other operations also produce lists, including the sorted() built-in.Lists implement all of the common and mutable sequence operations.</p>
+		</section>
+
+		<section class="main-section" id="Tuples">
+			<header>Tuples</header>
+			<p>The constructor builds a tuple whose items are the same and in the same order as iterable’s items. iterable may be either a sequence, a container that supports iteration, or an iterator object. If iterable is already a tuple, it is returned unchanged. For example, tuple('abc') returns ('a', 'b', 'c') and tuple( [1, 2, 3] ) returns (1, 2, 3). If no argument is given, the constructor creates a new empty tuple, ().</p>
+			<p>Note that it is actually the comma which makes a tuple, not the parentheses. The parentheses are optional, except in the empty tuple case, or when they are needed to avoid syntactic ambiguity. For example, f(a, b, c) is a function call with three arguments, while f((a, b, c)) is a function call with a 3-tuple as the sole argument.Tuples implement all of the common sequence operations.</p>
+
+		</section>
+	</main>
+
+</body>
+</html>

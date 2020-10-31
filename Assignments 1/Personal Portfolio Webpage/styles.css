@@ -1,0 +1,48 @@
+#welcome-section{
+	text-align: center;
+	text-decoration: underline;
+	height: 100vh;
+}
+
+#navbar{
+	position: fixed;
+	display: flex;
+	justify-content: center;
+	top:0;
+	width: 100%;
+	height: auto;
+	background-color: #C8C8C8;
+}
+
+#navbar a:-webkit-any-link{
+	color: red;
+}
+
+.project-tile{
+	font-size: 20px;
+}
+
+#link{
+	display: flex;
+	justify-content: center;
+}
+
+#img{
+	width: 40px;
+	height: 40px;
+}
+
+#profile_link{
+	font-size: 30px;
+}
+
+#projects{
+	padding: 20px;
+	margin-bottom: 20px;
+}
+
+@media(max-width: 600px){
+	h1{
+		font-size: 1.9em;
+	}
+}

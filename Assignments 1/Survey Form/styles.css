@@ -1,0 +1,21 @@
+body{
+	text-align: center;
+}
+
+#title{
+	font-size: 50px;
+	text-decoration: underline;
+}
+
+#description{
+	font-size: 20px;
+	font-weight: solid;
+	text-decoration: underline;
+}
+#survey-form{
+	align-self: center;
+   }
+
+div{
+	padding:20px;
+	}

@@ -1,0 +1,38 @@
+#main{
+	background-image: url(https://www.pngfind.com/pngs/m/239-2392755_eminem-logo-white-png-transparent-png.png);
+	background-size: 150px 50px;
+	background-repeat: space;
+}
+
+#title{
+	text-align: center;
+	font-weight: solid;
+	font-size: 70px;
+	text-decoration: underline;
+	color:;
+}
+
+#img-div{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+  height: auto;
+}
+
+#tribute-info{
+	font-size:20px;
+}
+
+#tribute-link{
+	display: block;
+	text-align: center;
+}
+

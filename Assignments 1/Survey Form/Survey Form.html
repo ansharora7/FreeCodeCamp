@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+<body>
+    <h1 id="title">Tesla Users</h1>
+    <p id="description">Survey On Tesla Cars</p>
+    <form id="survey-form">
+    	<div><label id="name-label">Enter Your Name :</label>
+    		<input type="text" id="name" name="name" required placeholder="e.g. John Doe">
+    	</div>
+
+    	<div><label id="email-label">Enter Your e-mail :</label>
+    		<input type="email" id="email" name="email" required placeholder="e.g. JohnDoe1@ok.com">
+    	</div>
+
+    	<div><label id="number-label">Enter a Number :</label>
+    		<input type="number" min="1" max="1000" id="number" name="number" placeholder="1-1000">
+    	</div>
+
+    	<div><label>Model Preference :</label>
+    		<select id="dropdown">
+	    		<option>S</option>
+	    		<option>3</option>
+	    		<option>X</option>
+	    		<option>Y</option>
+    		</select>
+    	</div>
+
+		<div>Current Model In Use :
+        	<label> <input type="radio" name="attribute" value="S">S</label>
+        	<label> <input type="radio" name="attribute" value="3">3</label>
+        	<label> <input type="radio" name="attribute" value="X">X</label>
+        	<label> <input type="radio" name="attribute" value="Y">Y</label>
+        </div>
+
+        <div>Previously Used Models :
+        	<label> <input type="checkbox" value="S">S</label>
+        	<label> <input type="checkbox" value="3">3</label>
+        	<label> <input type="checkbox" value="X">X</label>
+        	<label> <input type="checkbox" value="Y">Y</label>
+        </div>
+
+    	<div><label>Additional Comments :</label>
+    		<textarea></textarea></div>
+        <br>
+        <br>
+    	<button type="Submit" id="submit">Submit</button>
+
+    </form>
+    	
+</body>
+</html>
